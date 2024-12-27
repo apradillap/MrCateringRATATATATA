@@ -18,21 +18,23 @@ This project aims to analyze basketball shots using the NBA shots dataset from 2
    ```
 
 3. **Install Dependencies**
-Install the required dependencies from the `requirements.txt` file:
-```bash
-pip install -r requirements.txt
-```
+    Install the required dependencies from the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Update the requirements.txt file**
-Freeze the current dependencies and update the `requirements.txt` file:
-```bash
-pip freeze > requirements.txt
-```
+    Freeze the current dependencies and update the `requirements.txt` file:
+    ```bash
+    pip freeze > requirements.txt
+    ```
 
 5. **Prepare the data**
-Run the script to search for mentions of 'José Calderón' and filter his 3-point shots:
-```bash
-python utils/prepare_data.py
-```
+    Run the script to search for mentions of 'José Calderón' and filter his 3-point shots:
+    ```bash
+    python utils/prepare_data.py
+    ```
 
-The results will be saved in a new CSV file named `three_pointer_shots.csv` in the `data` directory.
+    The results will be saved in a new CSV file named `three_pointer_shots.csv` in the `data` directory.
+
+## Analyze the data
